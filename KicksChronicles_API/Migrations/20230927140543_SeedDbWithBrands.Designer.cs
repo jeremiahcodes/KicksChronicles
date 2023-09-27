@@ -3,6 +3,7 @@ using KicksChronicles_API.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace KicksChronicles_API.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230927140543_SeedDbWithBrands")]
+    partial class SeedDbWithBrands
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -135,106 +138,6 @@ namespace KicksChronicles_API.Migrations
                     b.HasIndex("BrandId");
 
                     b.ToTable("Shoes");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            BrandId = 3,
-                            Name = "Tmac 1",
-                            ShoeThumbnailURL = "https://kickschronicles.blob.core.windows.net/adidas/tmac1.jpg"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            BrandId = 2,
-                            Name = "Westbrook 0.1",
-                            ShoeThumbnailURL = "https://kickschronicles.blob.core.windows.net/jordan/westbrook-0.1.jpg"
-                        },
-                        new
-                        {
-                            Id = 3,
-                            BrandId = 2,
-                            Name = "Jordan 1",
-                            ShoeThumbnailURL = "https://kickschronicles.blob.core.windows.net/jordan/air-jordan-1.jpg"
-                        },
-                        new
-                        {
-                            Id = 4,
-                            BrandId = 3,
-                            Name = "Tmac 5",
-                            ShoeThumbnailURL = "https://kickschronicles.blob.core.windows.net/adidas/tmac5.jpg"
-                        },
-                        new
-                        {
-                            Id = 5,
-                            BrandId = 2,
-                            Name = "Jordan 11",
-                            ShoeThumbnailURL = "https://kickschronicles.blob.core.windows.net/jordan/jordan-11-spacejam.jpg"
-                        },
-                        new
-                        {
-                            Id = 6,
-                            BrandId = 2,
-                            Name = "Tatum 1",
-                            ShoeThumbnailURL = "https://kickschronicles.blob.core.windows.net/jordan/tatum-1.jpg"
-                        },
-                        new
-                        {
-                            Id = 7,
-                            BrandId = 2,
-                            Name = "Zion 2",
-                            ShoeThumbnailURL = "https://kickschronicles.blob.core.windows.net/jordan/zion-2.jpg"
-                        },
-                        new
-                        {
-                            Id = 8,
-                            BrandId = 2,
-                            Name = "Jordan 38",
-                            ShoeThumbnailURL = "https://kickschronicles.blob.core.windows.net/jordan/air-jordan-38.jpg"
-                        },
-                        new
-                        {
-                            Id = 9,
-                            BrandId = 2,
-                            Name = "Westbrook 0.5",
-                            ShoeThumbnailURL = "https://kickschronicles.blob.core.windows.net/jordan/westbrook-0.5.jpg"
-                        },
-                        new
-                        {
-                            Id = 10,
-                            BrandId = 2,
-                            Name = "Westbrook 0.6",
-                            ShoeThumbnailURL = "https://kickschronicles.blob.core.windows.net/jordan/westbrook-0.6.jpg"
-                        },
-                        new
-                        {
-                            Id = 11,
-                            BrandId = 5,
-                            Name = "Curry 4",
-                            ShoeThumbnailURL = "https://kickschronicles.blob.core.windows.net/under-armour/curry-4-2.jpg"
-                        },
-                        new
-                        {
-                            Id = 12,
-                            BrandId = 2,
-                            Name = "Jordan 12",
-                            ShoeThumbnailURL = "https://kickschronicles.blob.core.windows.net/jordan/jordan-12.jpg"
-                        },
-                        new
-                        {
-                            Id = 13,
-                            BrandId = 1,
-                            Name = "LeBron 20",
-                            ShoeThumbnailURL = "https://kickschronicles.blob.core.windows.net/nike/lebron-20.jpg"
-                        },
-                        new
-                        {
-                            Id = 14,
-                            BrandId = 1,
-                            Name = "LeBron NXXT Gen",
-                            ShoeThumbnailURL = "https://kickschronicles.blob.core.windows.net/nike/lebron-nxxt-gen.jpg"
-                        });
                 });
 
             modelBuilder.Entity("KicksChronicles_API.Models.Shoe", b =>
