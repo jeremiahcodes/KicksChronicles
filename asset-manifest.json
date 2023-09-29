@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/kickschronicles/static/css/main.e6c13ad2.css",
-    "main.js": "/kickschronicles/static/js/main.eba3e5a9.js",
+    "main.css": "/kickschronicles/static/css/main.b4ad2f84.css",
+    "main.js": "/kickschronicles/static/js/main.f7ec3ea5.js",
+    "static/media/bootstrap-icons.woff?": "/kickschronicles/static/media/bootstrap-icons.449ad8adf6ae0424b7ed.woff",
+    "static/media/bootstrap-icons.woff2?": "/kickschronicles/static/media/bootstrap-icons.dea24bf5a7646d8b84e7.woff2",
     "index.html": "/kickschronicles/index.html",
-    "main.e6c13ad2.css.map": "/kickschronicles/static/css/main.e6c13ad2.css.map",
-    "main.eba3e5a9.js.map": "/kickschronicles/static/js/main.eba3e5a9.js.map"
+    "main.b4ad2f84.css.map": "/kickschronicles/static/css/main.b4ad2f84.css.map",
+    "main.f7ec3ea5.js.map": "/kickschronicles/static/js/main.f7ec3ea5.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.eba3e5a9.js"
+    "static/css/main.b4ad2f84.css",
+    "static/js/main.f7ec3ea5.js"
   ]
 }
