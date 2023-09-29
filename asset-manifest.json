@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/KicksChronicles/static/css/main.2bdcb9fc.css",
-    "main.js": "/KicksChronicles/static/js/main.f7ec3ea5.js",
+    "main.js": "/KicksChronicles/static/js/main.c7e2772c.js",
     "static/media/bootstrap-icons.woff?": "/KicksChronicles/static/media/bootstrap-icons.449ad8adf6ae0424b7ed.woff",
     "static/media/bootstrap-icons.woff2?": "/KicksChronicles/static/media/bootstrap-icons.dea24bf5a7646d8b84e7.woff2",
     "index.html": "/KicksChronicles/index.html",
     "main.2bdcb9fc.css.map": "/KicksChronicles/static/css/main.2bdcb9fc.css.map",
-    "main.f7ec3ea5.js.map": "/KicksChronicles/static/js/main.f7ec3ea5.js.map"
+    "main.c7e2772c.js.map": "/KicksChronicles/static/js/main.c7e2772c.js.map"
   },
   "entrypoints": [
     "static/css/main.2bdcb9fc.css",
-    "static/js/main.f7ec3ea5.js"
+    "static/js/main.c7e2772c.js"
   ]
 }
