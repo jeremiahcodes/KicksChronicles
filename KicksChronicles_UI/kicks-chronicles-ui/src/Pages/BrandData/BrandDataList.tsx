@@ -15,12 +15,14 @@ function BrandDataList() {
   }, []);
 
   return (
-    <div className="container row">
+    <section className="container pt-5 mt-md-2 mt-lg-3 mt-xl-4 mt-xxl-5">
+      <div className="row g-4 pt-2 pt-sm-3 pt-md-4 pt-xl-5 mt-lg-2">
       {brandItems.length > 0 &&
         brandItems.map((brandItem, index) => (
           <BrandDataCard brandItem={brandItem} key={index} />
         ))}
     </div>
+    </section>
   );
 }
 
