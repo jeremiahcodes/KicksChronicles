@@ -2,7 +2,7 @@
   "name": "kicks-chronicles-ui",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jeremiahcodes.github.io/kickschronicles/",
+  "homepage": "https://jeremiahcodes.github.io/KicksChronicles",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.1",
     "@stripe/react-stripe-js": "^1.16.1",
